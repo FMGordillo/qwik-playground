@@ -4,9 +4,7 @@ export default component$(() => {
   return (
     <>
       <main>
-        <section>
-          <Slot />
-        </section>
+        <Slot />
       </main>
       <footer className="flex gap-8 h-14 justify-center place-items-center bg-indigo-100">
         <a href="https://www.builder.io/" target="_blank">
