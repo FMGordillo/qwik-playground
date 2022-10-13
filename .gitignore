@@ -38,4 +38,4 @@ lerna-debug.log*
 !.yarn/releases
 
 # Cloudflare
-functions/**/*.js
+functions/**

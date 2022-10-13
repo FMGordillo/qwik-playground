@@ -1,4 +1,4 @@
-import { component$, Slot } from '@builder.io/qwik';
+import { component$, Slot } from "@builder.io/qwik";
 
 export default component$(() => {
   return (
@@ -12,7 +12,9 @@ export default component$(() => {
         <a href="https://www.builder.io/" target="_blank">
           Made with ♡ by Builder.io
         </a>
-        <a href="https://github.com/FMGordillo" target="_blank">Modified by Facundo Martin Gordillo</a>
+        <a href="https://github.com/FMGordillo" target="_blank">
+          Modified by Facundo Martin Gordillo
+        </a>
       </footer>
     </>
   );
