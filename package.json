@@ -8,7 +8,6 @@
   "scripts": {
     "build": "qwik build",
     "build.client": "vite build",
-    "build.deploy": "vite build --ssr src/entry.deploy.tsx",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
     "build.server": "vite build --ssr src/entry.cloudflare-pages.tsx",
     "build.types": "tsc --incremental --noEmit",
